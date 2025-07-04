@@ -25,3 +25,5 @@ GROUP BY
     p.id, p.name
 ORDER BY 
     booking_rank;
+
+    ROW_NUMBER(b.id)
