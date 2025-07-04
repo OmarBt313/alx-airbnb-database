@@ -26,4 +26,4 @@ GROUP BY
 ORDER BY 
     booking_rank;
 
-    ROW_NUMBER(b.id)
+    ROW_NUMBER()
