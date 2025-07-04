@@ -20,6 +20,7 @@ SELECT
 FROM 
     properties
 LEFT JOIN 
+ ORDER BY AFTER 
     reviews ON properties.id = reviews.property_id;
 
 
